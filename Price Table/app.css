@@ -11,7 +11,7 @@ html{
 /*to change the background to blue*/
 body{
     background-color: #60a9ff;
-    display: flex;                          /*woah it also  made the width into fit-content*/
+    display: flex;                          /*width into fit-content*/
     justify-content: center;                /*center it in the middle*/
     align-items: center;
     min-height: 100vh;    
@@ -32,26 +32,26 @@ body{
     text-transform: uppercase;
 }
 
-.panel div{                                  /*.pricing-plan*/
+.panel div{                                
     border-bottom: 1px solid #dedede; 
 }
 
-.panel div:last-child{                       /*.pricing-plan:last-child()*/  
+.panel div:last-child{                      
     border-bottom: none;
 }
 
-.panel div img{                             /*pricing-img*/
+.panel div img{                             
     margin-bottom: 25px;
     max-width: 100%;
 }
 
-.panel div h2{                        /*pricing-header*/      
+.panel div h2{                              
     font-weight: 600;
     color: #888;
     letter-spacing: 1px;
 }
 
-.panel div ul{                     /*pricing-features*/
+.panel div ul{                     
     margin: 50px 0 25px;
     list-style: none;
     color: #016ff9;
@@ -59,7 +59,7 @@ body{
 }
 
 .panel div ul li{
-    font-weight: 600;              /*pricing-features-item*/
+    font-weight: 600;             
     letter-spacing: 1px;
     font-size: 12px;
     line-height: 1.5;
@@ -67,12 +67,12 @@ body{
     border-top: 1px solid #ddd;
 }
 
-.panel div ul li:last-child{           /*.pricing-features-item:last-child*/
+.panel div ul li:last-child{           
     border-bottom: 1px solid #ddd;
 }
 
 
-.panel div span{                         /*.pricing-price*/
+.panel div span{                      
     display: block;
     color: #016ff9;
     font-weight: 700;
@@ -80,9 +80,9 @@ body{
     text-align: center;
 }
 
-.panel div a{           /*.pricing-button*/
+.panel div a{         
     border: 1px solid #348efe;
-    display: inline-block;                    /*woah this permitted us to give more space and avoid colision with the other blocks */
+    display: inline-block;                    /*this permitted us to give more space and avoid colision with the other blocks */
     margin: 25px 0;
     padding: 15px 35px;
     border-radius: 10px;
@@ -92,7 +92,7 @@ body{
 }
 
 
-.panel div:nth-child(2) a{           /*.pricing-plan:nth-child(2) a*/ /* the secondpricing button*/
+.panel div:nth-child(2) a{          
     color: #fff;
     background-color: #348efe;
     transition: all 200ms ease-in-out;
@@ -118,7 +118,7 @@ body{
         flex-direction: row;
     }
 
-    .panel div{                                  /*.pricing-plan*/
+    .panel div{                                 
         border-bottom: none; 
         border-right: 1px solid #aaa;
         padding: 25px;
