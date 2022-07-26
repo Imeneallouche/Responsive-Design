@@ -1,5 +1,5 @@
  /*disable mobile image*/
-body{
+ body{
     display: flex;
     flex-direction: column;
     background-color:  hsl(30, 38%, 92%);
@@ -8,9 +8,6 @@ body{
     height: 100vh;
     box-sizing: border-box;
 }
-
-
-
 .product-preview{
     background-color: #fff;
     display: flex;
@@ -24,19 +21,13 @@ body{
 
     overflow: hidden;
 }
-
-
 img.mobile{
     display: none;
 }
-
 .image{
     overflow: hidden;
     flex: 1;
 }
-
-
-
 .text{
     margin: 40px;
     height: 100%;
@@ -46,30 +37,23 @@ img.mobile{
     flex: 1;
 
 }
-
 .text p:nth-child(1){
     font-family:'Courier New', Courier, monospace;
     letter-spacing: 5px;
     color: hsl(228, 12%, 48%);
     font-size:larger;
-
 }
-
 .text h1{
     font-size:40px;
     line-height:40px;
 }
-
-
 .text button{
     padding:20px;
     border-radius: 10px;
     border: 0;
     background-color: hsl(158, 36%, 37%);
     color: #fff;
- 
 }
-
 .text p span{
     color: blueviolet;
     margin: 0 25% 0 0;
@@ -78,17 +62,6 @@ img.mobile{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: hsl(158, 36%, 37%);
 }
-
-
-
-
-
-
-
-
-
-
-
 @media all and (max-width: 499px) {
     /*disable desktop image*/
     img.Desktop{
@@ -99,25 +72,6 @@ img.mobile{
         display:block;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     font-size: 11px; 
     text-align: center; 
@@ -125,4 +79,3 @@ footer{
 footer a { 
    color: hsl(228, 45%, 44%); 
 }
-
