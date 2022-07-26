@@ -1,0 +1,77 @@
+*{
+    font-family: Red Hat Display;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%); 
+}
+body{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #60a9ff;
+    align-items: center;
+    min-height: 100vh; 
+
+}
+.obj{
+    background-color: #ffffff;
+    width: 40%;
+    text-align: center;
+    max-width: 450px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius:15px;
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
+}
+.obj img{
+    width: 100%;
+}
+.obj h1{
+    margin: 5% 0 5%;
+    font-size: 2rem;
+}
+.para{
+    max-width: 90%;
+}
+.obj section{
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.obj section div{
+    display: flex;
+    align-items: center;
+}
+.obj section p{
+    width: 70%;
+}
+.obj section img{
+    width: 50px;
+    height:50px;
+}
+.obj button{
+    padding: 20px 30px 20px;
+    width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: all 1s;
+}
+.paybutton{
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.paybutton:hover{
+    background-color: aqua;
+}
