@@ -39,7 +39,7 @@ body{
     background-color:hsl(225, 100%, 98%);
     display: flex;
     width: 80%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     border-radius: 10px;
@@ -48,8 +48,8 @@ body{
     display: flex;
     align-items: center;
 }
-.obj section p{
-    width: 70%;
+.obj p{
+    margin: 20px;
 }
 .obj section img{
     width: 50px;
@@ -61,7 +61,7 @@ body{
     margin: 10px;
     border-radius: 10px;
     border: none;
-    transition: all 1s;
+    transition: all 0.75s;
 }
 .paybutton{
     background-color: hsl(245, 75%, 52%);
@@ -74,4 +74,7 @@ button:hover{
 }
 .paybutton:hover{
     background-color: aqua;
+}
+.obj section a:hover{
+    color:hsl(245, 75%, 52%);
 }
