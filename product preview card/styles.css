@@ -62,6 +62,13 @@ img.mobile{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: hsl(158, 36%, 37%);
 }
+footer{
+    font-size: 11px; 
+    text-align: center; 
+}
+footer a { 
+   color: hsl(228, 45%, 44%); 
+}
 @media all and (max-width: 499px) {
     /*disable desktop image*/
     img.Desktop{
@@ -71,11 +78,4 @@ img.mobile{
     img.mobile{
         display:block;
     }
-}
-footer{
-    font-size: 11px; 
-    text-align: center; 
-}
-footer a { 
-   color: hsl(228, 45%, 44%); 
 }
