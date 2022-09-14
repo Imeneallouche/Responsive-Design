@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Quattrocento");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload {
+  display: flex;
+  text-align: center;
+  color: #123;
+}
+/* Upper Circle */
+.stat {
+  stroke: #ddd;
+  stroke-width: 14;
+  fill: transparent;
+}
+
+/* lower Circle */
+.load {
+  fill: url(#uploadGradient);
+  fill-opacity: 0;
+  stroke: url(#uploadGradient);
+  stroke-width: 14;
+  stroke-dasharray: 628;
+  stroke-linecap: round;
+  transition: fill-opacity 0.5s linear;
+  animation: load 3s linear;
+}
+
+/* The Number% */
+.num {
+  font-size: 60px;
+  fill: url(#uploadGradient);
+  font-family: "Quattrocento", serif;
+  font-weight: 600;
+}
+
+@keyframes load {
+  0% {
+    stroke-dashoffset: 628;
+  }
+  20% {
+    stroke-dashoffset: 502.4;
+  }
+  40% {
+    stroke-dashoffset: 376.8;
+  }
+  60% {
+    stroke-dashoffset: 251.2;
+  }
+  80% {
+    stroke-dashoffset: 125.6;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

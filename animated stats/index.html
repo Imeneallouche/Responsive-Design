@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animated stats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="upload">
+        <svg width="300" height="300" viewBox="0 0 300 300">
+            <defs>
+                <linearGradient id="uploadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#c4f" />
+                    <stop offset="100%" stop-color="#1056ff" />
+                </linearGradient>
+            </defs>
+            <!-- -->
+            <circle class="stat" cx="150" cy="150" r="100" />
+            <circle class="load" cx="150" cy="150" r="100" transform="rotate(-90 150 150)" />
+            <text class="num" stroke-width="3" x="150" y="55%" text-anchor="middle"></text>
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
